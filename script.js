@@ -3,6 +3,7 @@ var ethicalPage = document.getElementById("Ethical-Hacking");
 var resumePage = document.getElementById("Resume");
 var SecurityPage = document.getElementById("Security");
 var ProgrammingPage = document.getElementById("Programming");
+var projectsPage = document.getElementById("Projects");
 
 
 networkPage.addEventListener("click", function(){
@@ -26,3 +27,6 @@ ProgrammingPage.addEventListener("click", ()=>{
     window.open('programming.html', '_blank');
 });
 
+projectsPage.addEventListener("click", ()=>{
+    window.open('projects.html', '_blank');
+});
