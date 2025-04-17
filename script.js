@@ -1,6 +1,9 @@
 var networkPage = document.getElementById("Networking");
 var ethicalPage = document.getElementById("Ethical-Hacking");
 var resumePage = document.getElementById("Resume");
+var SecurityPage = document.getElementById("Security");
+var ProgrammingPage = document.getElementById("Programming");
+
 
 networkPage.addEventListener("click", function(){
     window.open('networking.html', '_blank')
@@ -9,5 +12,17 @@ networkPage.addEventListener("click", function(){
 
 ethicalPage.addEventListener("click", function(){
     window.open('ethical.html', '_blank');
+});
+
+resumePage.addEventListener("click", ()=> {
+    window.open('resume.html', '_blank');
+});
+
+SecurityPage.addEventListener("click", ()=> {
+    window.open('security.html', '_blank');
+});
+
+ProgrammingPage.addEventListener("click", ()=>{
+    window.open('programming.html', '_blank');
 });
 
