@@ -11,6 +11,10 @@ background-color: #415a77;
     font-style: normal;
 }
 
+.main_cont{
+    margin-left: 5px;
+}
+
 #job_title{
     margin-left: 27%;
     margin-top: 5%;

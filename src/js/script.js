@@ -5,6 +5,10 @@ var SecurityPage = document.getElementById("Security");
 var ProgrammingPage = document.getElementById("Programming");
 var projectsPage = document.getElementById("Projects");
 
+window.onload = function(){
+
+   alert("You came all this way out of interest. Why not interview me? :)")
+};
 
 networkPage.addEventListener("click", function(){
     window.open('networking.html', '_blank')
@@ -30,3 +34,4 @@ ProgrammingPage.addEventListener("click", ()=>{
 projectsPage.addEventListener("click", ()=>{
     window.open('projects.html', '_blank');
 });
+

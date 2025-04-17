@@ -1,3 +1,19 @@
+body{
+    background-color: #A3B18A;
+}
+
+#right-nav{
+    margin-left: 77%;
+    font-size: larger;
+}
+
+#name{
+    margin-left: 5%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1{
     margin-top: 1%;
     text-align: center;
