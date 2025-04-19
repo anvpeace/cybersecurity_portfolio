@@ -1,15 +1,40 @@
-.main{
-
-background-color: #415a77;
-
-}
-
 #name{
     margin-left: 5%;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.main{
+    background-color: #415a77;
+  }
+
+  #job_title {
+    color: aliceblue;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  #headshot {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  #bio_title {
+    font-family: "Special Gothic Expanded One", sans-serif;
+  }
+
+  #about_me {
+    text-align: justify;
+    margin: 1rem;
+  }
+
+
+
+/* 
 
 .main_cont{
     margin-left: 5px;
@@ -29,7 +54,7 @@ background-color: #415a77;
     width: 360px;
     height: 360px;
     margin-left: 37%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #right-nav{
@@ -69,4 +94,7 @@ background-color: #415a77;
     top: 60%;
     left: 62%;
 }
+
+
+} */
 
