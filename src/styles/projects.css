@@ -1,3 +1,7 @@
+body{
+    background-color: #344E41;
+}
+
 #right-nav{
     margin-left: 77%;
     font-size: larger;
@@ -10,7 +14,39 @@
     font-style: normal;
 }
 
+.main_cont > p{
+    padding: 1.5rem;
+    color: aliceblue;
+    text-align: justify;
+   
+}
+
 h1{
+    margin-top: 7%;
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h4, h3{
+    /* margin-top: 1%; */
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;  
+}
+
+.card{
+    margin: 2rem;
+}
+.card-text{
+    color: black;
+}
+
+/* h1{
     margin-top: 1%;
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -20,13 +56,13 @@ h1{
 
 p{
     padding: 30px;
-}
+} */
 
-.projects_display{
+/* .projects_display{
     display: flex;
     justify-content: center;
 }
 
 .card{
     margin-left: 20px;
-}
+} */
