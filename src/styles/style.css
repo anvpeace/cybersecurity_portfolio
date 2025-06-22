@@ -1,16 +1,169 @@
-#name{
+#name {
     margin-left: 5%;
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: bolder;
+    color: rgb(19, 19, 19);
+}
+
+.navbar {
+    background-color: #2F65DA;
+    font-size: 30px;
+}
+
+#right-nav {
+    margin-left: auto;
+}
+
+#right-nav a {
+    color: aliceblue;
+    font-weight: 200;
+}
+
+.main {
+    background-color: rgba(240, 248, 255, 0.735);
+}
+
+#job_title {
+    color: black;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#headshot {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#bio_title {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: black;
+    margin-bottom: 4%;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#about_me {
+    text-align: justify;
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #2F65DA;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #2049a0;
+}
+
+/* ------------------------------- */
+/* 🔁 MEDIA QUERIES FOR RESPONSIVE */
+/* ------------------------------- */
+
+@media (max-width: 992px) {
+    .navbar {
+        font-size: 24px;
+    }
+
+    #right-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #bio_title {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #job_title {
+        font-size: 1.6rem;
+    }
+
+    #bio_title {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+
+    #about_me {
+        font-size: 0.95rem;
+        margin: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 20px;
+    }
+
+    #job_title {
+        font-size: 1.4rem;
+    }
+
+    #bio_title {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+    }
+
+    #about_me {
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+
+    #right-nav {
+        font-size: 1rem;
+    }
+}
+/* #name{
+    margin-left: 5%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 600;
+    font-weight: bolder;
+
+    color: rgb(19, 19, 19);
+}
+
+.navbar{
+
+    background-color: #2F65DA;
+    font-size: 30px;
+
+}
+#right-nav{
+    margin-left: 75%;
+}
+#right-nav a{
+    color: aliceblue;
+    font-weight: 200;
 }
 
 .main{
-    background-color: #1a759f;
-  }
+        background-color: rgba(240, 248, 255, 0.735);
+}
 
   #job_title {
-    color: aliceblue;
+    color: black;
     font-family: "Special Gothic Expanded One", sans-serif;
     text-align: center;
     margin-top: 2rem;
@@ -25,12 +178,16 @@
 
   #bio_title {
     font-family: "Special Gothic Expanded One", sans-serif;
+    color: black;
+    margin-bottom: 4%;
+
   }
 
   #about_me {
     text-align: justify;
     margin: 1rem;
-  }
+    color: black;
+  } */
 
 
 
