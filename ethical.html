@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a id="name" class="navbar-brand" href="#">McKenna C. Peace</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,28 +27,80 @@
   </div>
 </nav>
 <body>
+
+  <div class="main_cont">
     <h1>Ethical Hacking</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque impedit pariatur facilis ipsam explicabo temporibus, iste, totam a maiores voluptatem vitae dignissimos odio doloribus, consequatur ea tenetur illum enim earum.</p>
-    <div class="project_display">
+    <p>With a focus on offensive security, my courses for my AAS in Cybersecurity taught me the process of penetration testing, including reconnaissance, scanning, exploitation, and reporting. I become familiar with industry-standard tools like Nmap, Metasploit, Burp Suite, and Wireshark, using them to uncover and exploit weaknesses in controlled environments. The coursework covered social engineering, privilege escalation, password attacks, and vulnerability scanning, helping students understand the attackers mindset and how to counteract those threats. The hands-on training sharpened my ability to test defenses, document findings, understand frameworks and standards, and recommend mitigation strategies</p>
 
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+  </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <h4>Relative Experience</h4>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="./src/images/KaliLinuxVM.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kali Linux VM Configuration</h5>
+            <p class="card-text">This lab is focused on configuring a Frame Relay network using the hub-and-spoke topology to establish WAN connectivity between multiple branch offices (spokes) through a central router (hub) using Frame Relay encapsulation.</p>
+            <!-- <a href="#" class="btn" id="packet_tracer">Packet Tracer File</a> -->
           </div>
-          
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="./src/images/bcrypt.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bcrypt Password Hashing</h5>
+            <p class="card-text">
+              This program demonstrates how to use bcrypt in a Node.js environment to securely hash and verify passwords. It uses the Express framework to create a basic server, although no web routes are implemented.
+            </p>
+              <h4>Purpose</h6>
+            <p>The goal is to showcase how a plaintext password can be hashed using bcrypt, and how another password can be compared against that hash to determine whether they match — a common practice in secure authentication systems. </p>
+            <a href="#" class="btn" id="scanner">Github Repo</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="./src/images/FrameRelay_HubSpoke.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn" id="tracer2">Go somewhere</a>
+          </div>
+        </div>
+      </div> -->
+
     </div>
+  </div>
+  
+  
+  <!-- progress bars -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+          <h3 class="text-center text-dark mb-4">Skills</h3>
+    
+          <!-- Skill: Networking -->
+          <p class="text-dark mb-1">Segmentation</p>
+          <div class="progress mb-3" style="height: 25px;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;">85%</div>
+          </div>
+
+          <p class="text-dark mb-1">Client-Server Network Configuration</p>
+          <div class="progress mb-3" style="height: 25px;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;">85%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="src/js/script.js"></script>
+
 </body>
 </html>
