@@ -1,38 +1,150 @@
-body{
-    background-color: #f6bd60;
+/* Base Styles */
+body {
+    background-color: #F5F7FA;
+    color: #374151;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#right-nav{
-    margin-left: 77%;
+
+/* Navbar */
+.navbar {
+    background-color: #1F2937;
+}
+
+#right-nav a {
+    color: #F5F7FA;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+#right-nav a:hover {
+    color: #3B82F6;
+}
+
+#right-nav {
+    margin-left: auto;
     font-size: larger;
 }
 
-#name{
+#name {
     margin-left: 5%;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-.main_cont{
-    margin-left: 5px;
+    color: #F5F7FA;
 }
 
-h1{
-    margin-top: 1%;
+/* Headings */
+h1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #111827;
 }
 
-p{
-    padding: 30px;
+/* Main Content Container */
+main {
+    background-color: #FFFFFF;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
 }
 
-.certificate_display{
+/* Project Section */
+.project_display {
+    margin-top: 5%;
+}
+
+.project_title {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* Project Box Layout */
+.project {
     display: flex;
-    justify-content: center;
+    gap: 15px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
 }
 
-.card{
-    margin-left: 20px;
+/* Image Section */
+.img_title {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+/* Description Text */
+.description {
+    flex: 1 1 55%;
+    text-align: justify;
+    color: #374151;
+}
+
+/* MEDIA QUERIES FOR MOBILE */
+@media screen and (max-width: 768px) {
+    #right-nav {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    #name {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_title, .description {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .project_title {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1.1rem;
+    }
+
+    main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
 }

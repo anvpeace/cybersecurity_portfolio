@@ -10,94 +10,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a id="name" class="navbar-brand" href="#">McKenna C. Peace</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div id="right-nav" class="navbar-nav">
-        <a class="nav-link active" target="_blank" href="index.html" >Home</a>
-        <a class="nav-link" href="https://www.linkedin.com/in/mcpeace072035">LinkedIn</a>
-        <a class="nav-link" href="https://github.com/anvpeace">Github</a>
-        <!-- <a class="nav-link" href="#">Pricing</a> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Networking & Communications | McKenna C. Peace</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles/network.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a id="name" class="navbar-brand" href="#">McKenna C. Peace</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div id="right-nav" class="navbar-nav">
+          <a class="nav-link active" target="_blank" href="index.html">Home</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/mcpeace072035">LinkedIn</a>
+          <a class="nav-link" href="https://github.com/anvpeace">GitHub</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
-<body>
+  </nav>
 
-  <div class="main_cont">
+  <!-- Introduction -->
+  <section class="main_cont">
     <h1>Networking & Communications</h1>
     <p>
-      While pursuing my AAS in Cybersecurity I gained a solid foundation in networking, including how data moves through the OSI and TCP/IP models. I learned to sucessfully configure IP addressing, including subnetting, and can set up and manage devices like routers and switches. Through hands-on experience, I learned to apply concepts like VLANs, NAT, and ACLs (Access Control Lists) to control and secure network traffic. I am familiar with key protocols such as DNS, DHCP, FTP, SSH, SNMP, and HTTP/S, and can recognize and diagram different network topologies like hub-and-spoke, mesh, and star. These skills are essential for identifying and defending against basic network vulnerabilities
+      While pursuing my AAS in Cybersecurity, I gained a solid foundation in networking, including how data moves through the OSI and TCP/IP models. I can configure IP addressing and subnetting, manage routers and switches, and apply concepts like VLANs, NAT, and ACLs to control and secure traffic. I'm familiar with protocols such as DNS, DHCP, FTP, SSH, SNMP, and HTTP/S, and can diagram topologies like mesh, star, and hub-and-spoke.
     </p>
+  </section>
 
-  </div>
-
-  <div class="container">
+  <!-- Experience Cards -->
+  <section class="container">
     <div class="row justify-content-center">
       <h4>Relative Experience</h4>
+
       <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="card h-100">
-          <img src="./src/images/BasicStaticRouting.PNG" class="card-img-top" alt="...">
+          <img src="./src/images/BasicStaticRouting.PNG" class="card-img-top" alt="Static Routing">
           <div class="card-body">
-            <h5 class="card-title">Packet Tracer Static Routing Configuration</h5>
-            <p class="card-text">This lab is focused on configuring a Frame Relay network using the hub-and-spoke topology to establish WAN connectivity between multiple branch offices (spokes) through a central router (hub) using Frame Relay encapsulation.</p>
+            <h5 class="card-title">Packet Tracer Static Routing</h5>
+            <p class="card-text">Configured a Frame Relay WAN with hub-and-spoke topology using Cisco Packet Tracer and Frame Relay encapsulation.</p>
             <a href="#" class="btn" id="packet_tracer">Packet Tracer File</a>
           </div>
         </div>
       </div>
-  
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-          <img src="./src/images/TCP_Scanner.PNG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Python Network Scanning Tool</h5>
-            <p class="card-text">
-              A cross-platform, Python-based wrapper for Nmap that simplifies network reconnaissance with interactive options, automatic detection and installation of Nmap, flexible scan types, and structured output formats. 
-            </p>
-              <h4>Requirements</h6>
-            <p> Python: Version 3.6 or above Nmap: Installed system-wide or in a standard path</p>
-            <a href="#" class="btn" id="scanner">Github Repo</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-          <img src="./src/images/FrameRelay_HubSpoke.PNG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn" id="tracer2">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-  <!-- progress bars -->
-    <div class="container my-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10">
-          <h3 class="text-center text-dark mb-4">Skills</h3>
-    
-          <!-- Skill: Networking -->
-          <p class="text-dark mb-1">Segmentation</p>
-          <div class="progress mb-3" style="height: 25px;">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;">85%</div>
-          </div>
 
-          <p class="text-dark mb-1">Client-Server Network Configuration</p>
-          <div class="progress mb-3" style="height: 25px;">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;">85%</div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="./src/images/TCP_Scanner.PNG" class="card-img-top" alt="TCP Scanner">
+          <div class="card-body">
+            <h5 class="card-title">Python Network Scanner</h5>
+            <p class="card-text">Python + Nmap tool for automated network scanning with interactive CLI and structured output for security teams.</p>
+            <a href="#" class="btn" id="scanner">GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="./src/images/FrameRelay_HubSpoke.PNG" class="card-img-top" alt="Frame Relay">
+          <div class="card-body">
+            <h5 class="card-title">Hub-and-Spoke WAN Design</h5>
+            <p class="card-text">Engineered a scalable hub-spoke model using Frame Relay, enabling centralized control across multiple branch networks.</p>
+            <a href="#" class="btn" id="tracer2">More Info</a>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- Skills Progress -->
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <h3 class="text-center mb-4">Skills</h3>
+
+        <p class="mb-1">Segmentation</p>
+        <div class="progress mb-3" style="height: 25px;">
+          <div class="progress-bar bg-info text-dark fw-bold" role="progressbar" style="width: 85%;">85%</div>
+        </div>
+
+        <p class="mb-1">Client-Server Network Configuration</p>
+        <div class="progress mb-3" style="height: 25px;">
+          <div class="progress-bar bg-info text-dark fw-bold" role="progressbar" style="width: 85%;">85%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
