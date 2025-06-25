@@ -1,5 +1,27 @@
-#right-nav{
-    margin-left: 77%;
+body {
+    background-color: #F5F7FA;
+    color: #374151;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #1F2937;
+}
+
+#right-nav a {
+    color: #F5F7FA;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+#right-nav a:hover {
+    color: #3B82F6;
+}
+
+#right-nav {
+    margin-left: auto;
     font-size: larger;
 }
 
@@ -8,51 +30,56 @@
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.main_cont > p{
-    padding: 1.5rem;
-    color: aliceblue;
-    text-align: justify;
-   
+    color: #F5F7FA;
 }
 
 h1{
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: aliceblue;
+    color: #111827;
 }
 
-h4, h3{
-    /* margin-top: 1%; */
+.main_cont{ background-color: #FFFFFF;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
+}
+
+.skill_title{
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #111827;
+}
+.skill_bar{
+    gap: 15px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.progress{
+    display: block;
+}
+
+h5{
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: aliceblue;  
+    font-size: 1rem;
 }
 
-.card{
-    margin: 2rem;
-}
-.card-text{
-    color: black;
-}
 
-/* 
-
-p{
-    padding: 30px;
-}
-
-.program_display{
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    margin-left: 20px;
-} */
