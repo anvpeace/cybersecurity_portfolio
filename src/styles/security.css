@@ -28,6 +28,7 @@ body {
 .main_cont {
   margin-top: 5%;
   padding: 0 5% 1% 5%;
+  
 }
 
 .main_cont > p {
@@ -38,6 +39,8 @@ body {
   background-color: #ffffff;
   border-left: 4px solid #1e3a8a;
   border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 h1 {

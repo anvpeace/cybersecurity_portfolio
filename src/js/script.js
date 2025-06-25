@@ -25,6 +25,7 @@ certificatesPage.addEventListener("click", ()=> {
 
 SecurityPage.addEventListener("click", ()=> {
     window.open('security.html', '_blank');
+    
 });
 
 ProgrammingPage.addEventListener("click", ()=>{
