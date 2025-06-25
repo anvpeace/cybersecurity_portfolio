@@ -35,7 +35,7 @@ body {
 
 h1{
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
@@ -87,3 +87,44 @@ p{
     margin-left: 43%;
 }
 
+/* Media Queries: Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main_cont {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .skill_bar {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .skill_title {
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  #name {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+
+  #right-nav {
+    margin-left: 0;
+    text-align: c
+  }
+}
