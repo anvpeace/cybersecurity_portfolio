@@ -43,13 +43,14 @@ h1{
     color: #111827;
 }
 
-.main_cont{ background-color: #FFFFFF;
+.main_cont{ 
+    background-color: #1f2937ec;
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
     border: 1px solid #E5E7EB;
 }
 
@@ -63,7 +64,7 @@ h1{
 }
 .skill_bar{
     gap: 15px;
-    margin-top: 2%;
+    margin-top: 4%;
     flex-wrap: wrap;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -82,4 +83,7 @@ h5{
     font-size: 1rem;
 }
 
+p{
+    margin-left: 43%;
+}
 
