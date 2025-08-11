@@ -1,8 +1,8 @@
 var networkPage = document.getElementById("Networking");
 var ethicalPage = document.getElementById("Ethical-Hacking");
 var certificatesPage = document.getElementById("Certificates");
-var SecurityPage = document.getElementById("Security");
-var ProgrammingPage = document.getElementById("Programming");
+// var SecurityPage = document.getElementById("Security");
+var ProgrammingPage = document.getElementById("ProgrammingPage");
 var projectsPage = document.getElementById("Projects");
 
 // window.onload = function(){
@@ -23,10 +23,10 @@ certificatesPage.addEventListener("click", ()=> {
     window.open('certificates.html');
 });
 
-SecurityPage.addEventListener("click", ()=> {
-    window.open('security.html');
+// SecurityPage.addEventListener("click", ()=> {
+//     window.open('security.html');
     
-});
+// });
 
 ProgrammingPage.addEventListener("click", ()=>{
     window.open('programming.html');
