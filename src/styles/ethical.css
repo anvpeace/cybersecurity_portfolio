@@ -56,16 +56,13 @@ h4, h3 {
   font-weight: 400;
   color: #1e3a8a;
 }
-
 .card {
   margin: 1rem;
-  height: 65%;
+  height: 100%;
   border: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
 
 .card:hover {
   transform: translateY(-5px);
@@ -73,14 +70,6 @@ h4, h3 {
 }
 
 .card-img-top {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-bottom: 2px solid #1e3a8a;
-}
-
-#sentinel_img{
-  max-height: 46%;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -96,8 +85,6 @@ h4, h3 {
   color: #343a40;
   margin-top: 10%;
   margin-bottom: 3%;
-  padding: 2%;
-
 }
 
 .btn {
@@ -120,28 +107,28 @@ h4, h3 {
 
 #linux {
   margin-top: 6%;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
 }
 
 #hashing {
   margin-top: 12%;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 
 }
 
 #tracer2 {
   margin-top: 8%;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 
 }
 
-/* #NetScan{
-  height: 46%;
+#sentinel_img{
+  max-height:31%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid #1e3a8a;
 }
-
-#WAN_img{
-  height: 46%;
-} */
 
 @media (max-width: 768px) {
   #right-nav {
