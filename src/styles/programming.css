@@ -73,9 +73,9 @@ h1{
     box-shadow: 0 2px 5px rgba(0,0,0,0.03);
 }
 
-.progress{
+/* .progress{
     display: block;
-}
+} */
 
 h5{
     text-align: center;
@@ -84,8 +84,13 @@ h5{
 }
 
 p{
-    margin-left: 43%;
+    margin-left: auto;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
+
+
 
 /* Media Queries: Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
