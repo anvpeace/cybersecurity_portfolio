@@ -111,13 +111,20 @@ h4, h3 {
 }
 
 #scanner {
-  margin-top: 2%;
+  margin-top: 21%;
 }
 
 #tracer2 {
-  margin-top: 28%;
+  margin-top: 21%;
 }
 
+#NetScan{
+  height: 46%;
+}
+
+#WAN_img{
+  height: 46%;
+}
 @media (max-width: 768px) {
   #right-nav {
     margin-left: 0;

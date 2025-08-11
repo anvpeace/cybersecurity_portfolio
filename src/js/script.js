@@ -11,28 +11,28 @@ var projectsPage = document.getElementById("Projects");
 // };
 
 networkPage.addEventListener("click", function(){
-    window.open('networking.html', '_blank')
+    window.open('networking.html')
     console.log("working");
 });
 
 ethicalPage.addEventListener("click", function(){
-    window.open('ethical.html', '_blank');
+    window.open('ethical.html');
 });
 
 certificatesPage.addEventListener("click", ()=> {
-    window.open('certificates.html', '_blank');
+    window.open('certificates.html');
 });
 
 SecurityPage.addEventListener("click", ()=> {
-    window.open('security.html', '_blank');
+    window.open('security.html');
     
 });
 
 ProgrammingPage.addEventListener("click", ()=>{
-    window.open('programming.html', '_blank');
+    window.open('programming.html');
 });
 
 projectsPage.addEventListener("click", ()=>{
-    window.open('projects.html', '_blank');
+    window.open('projects.html');
 });
 

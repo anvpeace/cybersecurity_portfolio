@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap'); */
 
 :root {
   --primary: #1e40af;
@@ -113,4 +113,68 @@ h2 {
 }
 
 
+
+/* 
+
+.main_cont{
+    margin-left: 5px;
+}
+
+#job_title{
+    margin-left: 27%;
+    margin-top: 5%;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+}
+
+#headshot{
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    margin-left: 37%;
+    margin-top: 1%;
+}
+
+#right-nav{
+    margin-left: 80%;
+    font-size: larger;
+}
+
+.btn{
+    position: absolute;
+}
+
+#Networking{
+    top: 40%;
+    left: 28%;
+}
+
+#Ethical-Hacking{
+    top: 50%;
+    left: 25%;
+}
+
+#Certificates{
+    top: 60%;
+    left: 28%;
+}
+#Security{
+
+    top: 40%;
+    left: 62%;
+}
+#Programming{
+    top: 50%;
+    left: 63%;
+}
+
+#Projects{
+    top: 60%;
+    left: 62%;
+}
+
+
+} */
 
